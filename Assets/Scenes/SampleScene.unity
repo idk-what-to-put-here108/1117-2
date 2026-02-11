@@ -532,7 +532,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.7832417, y: -1.3191999, z: -10}
+  m_LocalPosition: {x: 6.570187, y: -1.3191999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2578,6 +2578,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1596370829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1444099539 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9063241092337481448, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+  m_PrefabInstance: {fileID: 1818324387}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1444099544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444099539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd438dd108a0f284aa931a2da434f1d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ImpulseDefinition:
+    ImpulseChannel: 1
+    ImpulseShape: 0
+    CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    ImpulseDuration: 0.2
+    ImpulseType: 3
+    DissipationRate: 0
+    RawSignal: {fileID: 11400000, guid: 2fb70affbd183194da456fd17bd1d215, type: 2}
+    AmplitudeGain: 1
+    FrequencyGain: 1
+    RepeatMode: 0
+    Randomize: 0
+    TimeEnvelope:
+      AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AttackTime: 0
+      SustainTime: 0.2
+      DecayTime: 0.7
+      ScaleWithImpact: 1
+      HoldForever: 0
+    ImpactRadius: 100
+    DirectionMode: 0
+    DissipationMode: 2
+    DissipationDistance: 100
+    PropagationSpeed: 343
+  DefaultVelocity: {x: 0, y: -1, z: 0}
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  IgnoreTag: 
+  UseImpactDirection: 0
+  ScaleImpactWithMass: 0
+  ScaleImpactWithSpeed: 0
 --- !u!1 &1584082348
 GameObject:
   m_ObjectHideFlags: 0
@@ -3123,6 +3188,127 @@ Transform:
   - {fileID: 680679799}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1818324387
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2857465112614201977, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857465112614201977, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857465112614201977, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857465112614201977, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857465112614201977, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857465112614201977, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857465112614201977, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857465112614201977, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857465112614201977, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857465112614201977, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3284651543131436832, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_Size.x
+      value: 2.8645034
+      objectReference: {fileID: 0}
+    - target: {fileID: 3284651543131436832, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_Size.y
+      value: 1.8390266
+      objectReference: {fileID: 0}
+    - target: {fileID: 3284651543131436832, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.06774831
+      objectReference: {fileID: 0}
+    - target: {fileID: 3284651543131436832, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.4195133
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247285240575216111, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: DefaultVelocity.y
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247285240575216111, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: ImpulseDefinition.ImpulseShape
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247285240575216111, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: ImpulseDefinition.ImpulseDuration
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247285240575216111, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: ImpulseDefinition.CustomImpulseShape.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247285240575216111, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: ImpulseDefinition.CustomImpulseShape.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247285240575216111, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: ImpulseDefinition.CustomImpulseShape.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247285240575216111, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: ImpulseDefinition.CustomImpulseShape.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247285240575216111, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: ImpulseDefinition.CustomImpulseShape.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247285240575216111, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: ImpulseDefinition.CustomImpulseShape.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247285240575216111, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: ImpulseDefinition.CustomImpulseShape.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247285240575216111, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: ImpulseDefinition.CustomImpulseShape.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063241092337481448, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      propertyPath: m_Name
+      value: TremorZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4247285240575216111, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9063241092337481448, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1444099544}
+  m_SourcePrefab: {fileID: 100100000, guid: 7b5628ee39902324bab267c649f263bd, type: 3}
 --- !u!1 &1940017309
 GameObject:
   m_ObjectHideFlags: 0
@@ -3219,6 +3405,7 @@ GameObject:
   - component: {fileID: 1988840668}
   - component: {fileID: 1988840667}
   - component: {fileID: 1988840670}
+  - component: {fileID: 1988840671}
   m_Layer: 0
   m_Name: CinemachineCamera
   m_TagString: Untagged
@@ -3335,6 +3522,30 @@ MonoBehaviour:
     MaxWindowSize: 0
     Padding: 0
   m_LegacyMaxWindowSize: -2
+--- !u!114 &1988840671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988840666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ApplyAfter: 2
+  ChannelMask: 1
+  Gain: 1
+  Use2DDistance: 0
+  UseCameraSpace: 1
+  SignalCombinationMode: 0
+  ReactionSettings:
+    m_SecondaryNoise: {fileID: 0}
+    AmplitudeGain: 1
+    FrequencyGain: 1
+    Duration: 1
+    m_NoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1001 &6631378918177636754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3465,3 +3676,4 @@ SceneRoots:
   - {fileID: 6631378918177636754}
   - {fileID: 1988840669}
   - {fileID: 1940017311}
+  - {fileID: 1818324387}
